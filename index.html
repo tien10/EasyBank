@@ -42,13 +42,15 @@
           <img src="images/logo.svg" alt="Easybank" />
         </a>
 
-        <a href="#" class="header__menu">
+        <!-- >= 1024px -->
+        <a href="#" class="header__menu hide-for-desktop">
           <span></span>
           <span></span>
           <span></span>
         </a>
 
-        <div class="header__links">
+        <!-- <= 1023px -->
+        <div class="header__links hide-for-mobile">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
@@ -56,7 +58,10 @@
           <a href="#">Careers</a>
         </div>
 
-        <a href="#" class="button header__cta">Request Invite</a>
+        <!-- <= 1023px -->
+        <a href="#" class="button header__cta hide-for-mobile"
+          >Request Invite</a
+        >
       </nav>
     </header>
     <!-- Home About Contact Blog Careers Request Invite Next generation digital
